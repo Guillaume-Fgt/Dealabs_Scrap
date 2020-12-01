@@ -19,3 +19,4 @@ Limitations: prend en compte uniquement les deals expirés.
 TODOLIST:
 - détecter automatiquement le nombre de pages de deal. 
 - uniquement avoir à entrer le nom d'utilisateur serait bien.
+- meilleure mise en forme dans matplotlib
