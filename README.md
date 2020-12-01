@@ -17,5 +17,5 @@ Résultat:
 Limitations: prend en compte uniquement les deals expirés.
 
 TODOLIST:
-- détécter automatiquement le nombre de pages de deal. 
+- détecter automatiquement le nombre de pages de deal. 
 - uniquement avoir à entrer le nom d'utilisateur serait bien.
