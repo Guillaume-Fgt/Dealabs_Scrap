@@ -26,6 +26,7 @@ for i in range(1, 13):
     page = requests.get(url, headers=headers)
     scrap_page(page, merchants)
 
+
 print(len(merchants))
 counts = Counter(merchants)
 counts_plot = sorted(
