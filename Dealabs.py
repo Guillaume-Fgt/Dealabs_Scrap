@@ -54,6 +54,7 @@ counts = Counter(merchants)
 counts_plot = sorted(
     counts.items(), key=itemgetter(1)
 )  # Sort a list of tuples by 2nd item
+plt.rcParams.update({'figure.autolayout': True})
 plt.style.use("fivethirtyeight")
 plt.barh(*zip(*counts_plot))
 plt.show()
