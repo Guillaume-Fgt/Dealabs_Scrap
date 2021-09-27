@@ -6,6 +6,17 @@ from bs4 import BeautifulSoup
 
 
 def scrap_page(page, list):
+    """
+    This function receives the request result of a webpage and a list.
+    It populates the list with a bs4 query on the request result.
+
+    Parameters
+        ----------
+        page : str
+            The result of a request.get method
+        list: lst
+            A list to populate with the result of bs4
+    """
     soup = BeautifulSoup(page.content, "lxml")
     user_soup = soup("span",
                      "cept-merchant-name text--b text--color-greyShade link")
